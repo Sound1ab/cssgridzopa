@@ -57,6 +57,7 @@ const Introduction = ({props}) => {
                     l: '1fr 2fr'
                 }}
                 overflow={'hidden'}
+                hideOnM={true}
             >
                 <GridBackground
                     backgroundColor={'var(--light-grey)'}
