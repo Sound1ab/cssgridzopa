@@ -1,11 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Heading from '../atoms/Heading';
 import Grid from '../atoms/Grid';
 import SubGrid from '../atoms/SubGrid';
 import GridBackground from '../atoms/GridBackground';
 import Wrapper from '../atoms/Wrapper';
-import Button from '../atoms/Button';
 import Text from '../atoms/Text';
 
 const GridBackgroundRotate = GridBackground.extend`
