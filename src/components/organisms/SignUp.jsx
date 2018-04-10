@@ -66,17 +66,17 @@ const Features = () => {
                 </SubGrid>
                 <SubGrid colStart={'content-1'}>
                     <Wrapper flexDirection={'column'} textAlign={'center'} padding={[40, 18, 40, 18]}>
-                        <Input type="text" placeholder="full name"/>
+                        <Input type="text" placeholder="full name" light/>
                     </Wrapper>
                 </SubGrid>
                 <SubGrid colStart={'content-2'}>
                     <Wrapper flexDirection={'column'} textAlign={'center'}>
-                        <Input type="text" placeholder="your email"/>
+                        <Input type="text" placeholder="your email" light/>
                     </Wrapper>
                 </SubGrid>
                 <SubGrid colStart={'content-3'}>
                     <Wrapper flexDirection={'column'} textAlign={'center'}>
-                        <Input type="text" placeholder="password"/>
+                        <Input type="text" placeholder="password" light/>
                     </Wrapper>
                 </SubGrid>
                 <SubGrid colStart={'content-4'}>
