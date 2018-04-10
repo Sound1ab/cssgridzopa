@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 const Button = styled.button`
   border: none;
@@ -8,7 +8,7 @@ const Button = styled.button`
   background-color: var(--pink);
   color: var(--white); 
   border-radius: 5px;
-  margin-bottom: 16px;
+  ${props => props.noMarginBottom ? css`margin-bottom: 0` : css`margin-bottom: 16px`}
 `;
 
 export default Button;

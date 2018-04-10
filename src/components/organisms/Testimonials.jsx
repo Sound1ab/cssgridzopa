@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Grid from '../atoms/Grid';
 import SubGrid from '../atoms/SubGrid';
-import GridBackground from '../atoms/GridBackground';
 import Wrapper from '../atoms/Wrapper';
 import Heading from '../atoms/Heading';
 import Text from '../atoms/Text';

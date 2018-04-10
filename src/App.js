@@ -4,6 +4,8 @@ import Introduction from './components/organisms/Introduction';
 import Features from './components/organisms/Features';
 import Responsive from './components/organisms/Responsive';
 import Testimonials from './components/organisms/Testimonials';
+import NewFeatures from './components/organisms/NewFeatures';
+import SignUp from './components/organisms/SignUp';
 import ErrorBoundary from './components/ErrorBoundary';
 
 class App extends Component {
@@ -15,6 +17,8 @@ class App extends Component {
                 <Features/>
                 <Responsive/>
                 <Testimonials/>
+                <NewFeatures/>
+                <SignUp/>
             </ErrorBoundary>
         );
     }

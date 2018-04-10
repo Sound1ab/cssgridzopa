@@ -54,6 +54,7 @@ Wrapper.propTypes = {
         }
     },
     backgroundColor: PropTypes.string,
+    backgroundImage: PropTypes.string,
     flexDirection: function (props, propName) {
         if (!props[propName].match(/(row|column)/)) {
             return new Error ('Prop must be a valid text-align string');
@@ -75,6 +76,7 @@ Wrapper.defaultProps = {
     padding: [18],
     textAlign: 'left',
     backgroundColor: 'transparent',
+    backgroundImage: '',
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row'
