@@ -18,7 +18,7 @@ const media = Object.keys(sizes).reduce((acc, label) => {
     return acc
 }, {});
 
-const Grid = styled.section`
+const Grid = styled.div`
     position: relative;
     display: grid;
     grid-template-columns: ${props => props.columns.l};
