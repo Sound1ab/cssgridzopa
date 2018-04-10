@@ -49,7 +49,7 @@ const Testimonials = ({props}) => {
                         <Avatar/>
                         <Heading type={'h4'} color={'var(--white)'}>Jonathon Doe</Heading>
                         <Heading type={'h5'} color={'var(--pink)'}>Jonathon Doe</Heading>
-                        <Text marginBottom={16}>
+                        <Text>
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pretium odio sit amet enim imperdiet, a lobortis neque tempus."
                         </Text>
                     </Wrapper>
@@ -59,7 +59,7 @@ const Testimonials = ({props}) => {
                         <Avatar/>
                         <Heading type={'h4'} color={'var(--white)'}>Jonathon Doe</Heading>
                         <Heading type={'h5'} color={'var(--pink)'}>Jonathon Doe</Heading>
-                        <Text marginBottom={16}>
+                        <Text>
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pretium odio sit amet enim imperdiet, a lobortis neque tempus."
                         </Text>
                     </Wrapper>
@@ -69,7 +69,7 @@ const Testimonials = ({props}) => {
                         <Avatar/>
                         <Heading type={'h4'} color={'var(--white)'}>Jonathon Doe</Heading>
                         <Heading type={'h5'} color={'var(--pink)'}>Jonathon Doe</Heading>
-                        <Text marginBottom={16}>
+                        <Text>
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pretium odio sit amet enim imperdiet, a lobortis neque tempus."
                         </Text>
                     </Wrapper>

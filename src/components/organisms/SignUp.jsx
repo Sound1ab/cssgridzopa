@@ -89,7 +89,7 @@ const Features = () => {
                 </SubGrid>
                 <SubGrid gridArea={'tc'}>
                     <Wrapper>
-                        <Text marginBottom={0}>
+                        <Text>
                             By signing up you agree to our terms & services
                         </Text>
                     </Wrapper>
