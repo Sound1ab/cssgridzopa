@@ -21,3 +21,7 @@ React 16 project created with create-react-app to showcase CSS grid, styled comp
 #### Styling ####
 
 This project uses styled components to create components with encapsulated style.
+
+#### To do ####
+
+* Optimise imagery for appropriate screen (resize and src-set)
