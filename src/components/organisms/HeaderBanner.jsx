@@ -6,25 +6,31 @@ import GridBackground from '../atoms/GridBackground';
 import Wrapper from '../atoms/Wrapper';
 import Button from '../atoms/Button';
 import Text from '../atoms/Text';
-import PropTypes from 'prop-types';
 
 const HeaderBanner = () => {
     return (
         <Grid
-            columns={'1fr [main-start] minmax(auto, 650px) [main-end] 1fr'}
-            rows={'1fr 124px 1fr'}
-            height={813}
+            columns={{
+                l: '1fr [main-start] minmax(auto, 650px) [main-end] 1fr'
+            }}
+            rows={{
+                l: '1fr 124px 1fr'
+            }}
         >
             <GridBackground
+                colSpan={'1/-1'}
+                rowSpan={'1/-1'}
                 src={require('../../assets/images/header-photo.jpg')}
             />
             <SubGrid
                 colSpan={'main-start / main-end'}
                 rowSpan={'1 / 1'}
+                paddingTop={100}
             >
                 <Wrapper
                     alignItems={'flex-end'}
                     textAlign={'center'}
+                    marginTop={100}
                 >
                     <Heading>There is no other platform for you as like</Heading>
                 </Wrapper>
