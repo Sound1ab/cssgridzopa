@@ -20,4 +20,5 @@ StyledHeading.defaultProps = {
 
 export default styled(StyledHeading)`
     font-family: var(--ff-heading);
+    line-height: calc(var(--lh-base) / var(--fz-base));
 `;
