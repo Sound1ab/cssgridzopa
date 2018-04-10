@@ -19,8 +19,9 @@ const Introduction = ({props}) => {
                 l: '1.5fr 1fr',
                 m: '1fr'
             }}
-            rows={'1'}
-            height={725}
+            rows={{
+                l: '1fr'
+            }}
         >
             <Grid
                 columns={{
@@ -30,8 +31,13 @@ const Introduction = ({props}) => {
                 <SubGrid
                     colSpan={'main-start / main-end'}
                     rowSpan={'1 / 1'}
+                    paddingTop={100}
+                    paddingBottom={100}
                 >
-                    <Wrapper flexDirection={'column'} alignItems={'flex-start'}>
+                    <Wrapper
+                        flexDirection={'column'}
+                        alignItems={'flex-start'}
+                    >
                         <Heading type={'h3'}>New Design</Heading>
                         <Heading type={'h2'}>There is no other platform for you as like...</Heading>
                         <Text marginBottom={true}>
