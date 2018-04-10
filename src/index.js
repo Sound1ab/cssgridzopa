@@ -11,7 +11,7 @@ injectGlobal`
         --ff-heading: 'PT Serif', Arial, Tahoma, sans-serif;
         
         /* Style */
-        --fz-small: 16;
+        --fz-small: 14;
         --fz-base: 16;
         --lh-base: 19;
         --fw-base: 400;
