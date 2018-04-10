@@ -93,6 +93,7 @@ injectGlobal`
     h4 {
         font-size: 18px;
         color: var(--black);
+        margin-bottom: 16px;
     }
     
     h5 {
