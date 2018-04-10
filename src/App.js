@@ -6,6 +6,7 @@ import Responsive from './components/organisms/Responsive';
 import Testimonials from './components/organisms/Testimonials';
 import NewFeatures from './components/organisms/NewFeatures';
 import SignUp from './components/organisms/SignUp';
+import Footer from './components/organisms/Footer';
 import ErrorBoundary from './components/ErrorBoundary';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
                 <Testimonials/>
                 <NewFeatures/>
                 <SignUp/>
+                <Footer/>
             </ErrorBoundary>
         );
     }
