@@ -40,12 +40,14 @@ const HeaderBanner = () => {
                 rowSpan={'2/2'}
             >
                 <img
+                    alt="play icon"
                     src={require('../../assets/images/header-icon-play.png')}
                 />
             </SubGrid>
             <SubGrid
                 colSpan={'main-start / main-end'}
                 rowSpan={'3/3'}
+                paddingBottom={100}
             >
                 <Wrapper
                     justifyContent={'flex-start'}
