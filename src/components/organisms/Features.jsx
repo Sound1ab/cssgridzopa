@@ -11,14 +11,14 @@ let Grid = styled.section`
   position: relative;
   display: grid;
   grid-template-columns: var(--gutters) repeat(3, 1fr) var(--gutters);
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto 1fr;
   grid-template-areas: 
     "gutter-1 heading heading heading gutter-2"
     "gutter-1 content-1 content-2 content-3 gutter-2";
   color: pink;
   @media (max-width: ${breakpoints.s}px) {
     grid-template-columns: var(--gutters) 1fr var(--gutters);
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
     grid-template-areas: 
       "gutter-1 heading gutter-2"
       "gutter-1 content-1 gutter-2"
@@ -34,7 +34,7 @@ let Icon = styled.img`
 `;
 
 let ContentGrid = SubGrid.extend`
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   @media (max-width: ${breakpoints.s}px) {
     padding-bottom: 0;
   }
@@ -47,7 +47,7 @@ const Features = () => {
                 colSpan={'1/-1'}
                 rowSpan={'1/-1'}
                 src={require('../../assets/images/section3-photoBackground.jpg')} />
-            <SubGrid colSpan={'heading'}>
+            <SubGrid colSpan={'heading'} paddingTop={40}>
                 <Wrapper
                     flexDirection={'column'}
                     textAlign={'center'}
