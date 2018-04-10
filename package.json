@@ -1,5 +1,5 @@
 {
-  "name": "roman-numerals",
+  "name": "cssgridzopa",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,6 +20,6 @@
     "test": "react-scripts test --env=jsdom",
     "snapshot": "react-scripts test --env=jsdom -u",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && aws s3 sync --acl public-read --profile sound1ab --delete build/ s3://romannumeral-030418"
+    "deploy": "npm run build && aws s3 sync --acl public-read --profile sound1ab --delete build/ s3://cssgridzopa"
   }
 }
