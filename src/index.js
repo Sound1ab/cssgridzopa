@@ -12,7 +12,7 @@ injectGlobal`
         
         /* Style */
         --fz-small: 16;
-        --fz-base: 18;
+        --fz-base: 16;
         --lh-base: 19;
         --fw-base: 400;
         
@@ -23,33 +23,8 @@ injectGlobal`
         --light-grey: #ececec;
         --dark-grey: #7f84a1;
         --purple: #323969;
-        
-        /* Margin */
-        --gutters: 120px;
-        
-        /* Breakpoints */
-        --xs: 480px;
-        --s: 640px;
-        --m: 960px;
-        --l: 1200px;
     }
-    @media (max-width: 960px) {
-        :root {
-          --gutters: 60px;
-        }
-    }
-    @media (max-width: 640px) {
-        :root {
-          --gutters: 30px;
-        }
-    }
-    @media (max-width: 480px) {
-        :root {
-          --gutters: 15px;
-        }
-    }
-    
-    
+   
     * {
         box-sizing: border-box;
         padding: 0;
