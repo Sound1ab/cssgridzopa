@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {StyledError} from "./StyledError";
 
 export default class ErrorBoundary extends Component {
     constructor(props) {
@@ -13,7 +12,7 @@ export default class ErrorBoundary extends Component {
 
     render() {
         if (this.state.hasError) {
-            return <StyledError>Oh dear, something went wrong</StyledError>
+            return <p>Oh dear, something went wrong</p>
         }
         return this.props.children;
     }
