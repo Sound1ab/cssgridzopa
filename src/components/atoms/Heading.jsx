@@ -24,4 +24,5 @@ export default styled(StyledHeading)`
     color: ${props => props.color};
     font-family: var(--ff-heading);
     line-height: calc(var(--lh-base) / var(--fz-base));
+    font-weight: 100;
 `;

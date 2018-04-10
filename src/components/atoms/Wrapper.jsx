@@ -26,11 +26,14 @@ const WrapperDiv = styled.div`
   justify-content: ${props => props.justifyContent};
   align-items: ${props => props.alignItems};
   flex-direction: ${props => props.flexDirection}
-`;
+  ${props => props.maxWidth ? css`max-width: ${props.maxWidth}px` : null};
+  ${props => props.margin ? css`margin: ${props.margin}` : null};`;
 
-const Wrapper = ({padding, textAlign, justifyContent, alignItems, flexDirection, backgroundColor, backgroundImage, children}) => {
+const Wrapper = ({padding, textAlign, justifyContent, alignItems, flexDirection, backgroundColor, backgroundImage, maxWidth, margin, children}) => {
     return (
         <WrapperDiv
+            maxWidth={maxWidth}
+            margin={margin}
             padding={padding}
             textAlign={textAlign}
             justifyContent={justifyContent}

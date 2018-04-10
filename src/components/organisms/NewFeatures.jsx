@@ -14,7 +14,7 @@ const NewFeatures = ({props}) => {
                 </Text>
             </Wrapper>
             <Wrapper padding={[0]}>
-                <img src={require('../../assets/images/section6-browser.png')} />
+                <img src={require('../../assets/images/section6-browser.png')} alt="macbook"/>
             </Wrapper>
         </div>
 

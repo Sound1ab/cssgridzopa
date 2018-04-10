@@ -6,6 +6,7 @@ import Wrapper from '../atoms/Wrapper';
 import Heading from '../atoms/Heading';
 import Text from '../atoms/Text';
 import {breakpoints} from '../utils/breakpoints';
+import Triangle from '../atoms/Triangle';
 
 let ResponsiveGrid = Grid.extend`
   max-width: 1200px;
@@ -28,11 +29,19 @@ let Image = styled.img`
   height: auto;
 `;
 
+let AbsoluteTriangle = Triangle.extend`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: rotate(90deg);
+`
+
 const Responsive = ({props}) => {
     return (
         <Wrapper
             padding={[80, 0, 80, 0]}
         >
+            <AbsoluteTriangle size={500}/>
             <ResponsiveGrid>
                 <SubGrid colSpan={'content-1'}>
                     <Wrapper>

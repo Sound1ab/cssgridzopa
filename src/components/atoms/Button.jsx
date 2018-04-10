@@ -9,6 +9,7 @@ const Button = styled.button`
   background-color: var(--pink);
   color: var(--white); 
   border-radius: 5px;
+  white-space: nowrap;
   ${props => props.marginBottom ? css`margin-bottom: 16px` : css`margin-bottom: 0`}
   ${props => props.expand ? css`width: 100%` : null}
 `;

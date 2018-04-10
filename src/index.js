@@ -8,7 +8,7 @@ injectGlobal`
     :root {
         /* Family */
         --ff-base: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-        --ff-heading: 'PT Serif', Arial, Tahoma, sans-serif;
+        --ff-heading: Verdana, Arial, Tahoma, sans-serif;
         
         /* Style */
         --fz-small: 14;
@@ -59,7 +59,7 @@ injectGlobal`
     }
     
     h3 {
-        font-size: 24px;
+        font-size: 16px;
         color: var(--pink);
         text-transform: uppercase;
         margin-bottom: 16px;
@@ -68,11 +68,11 @@ injectGlobal`
     h4 {
         font-size: 18px;
         color: var(--black);
-        margin-bottom: 16px;
+        margin-bottom: 5px;
     }
     
     h5 {
-        font-size: 16px;
+        font-size: 14px;
         color: var(--black);
         margin-bottom: 20px;
     }

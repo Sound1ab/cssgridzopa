@@ -76,22 +76,22 @@ const Testimonials = ({props}) => {
                 </SubGrid>
                 <SubGrid colSpan={'l1'}>
                     <Wrapper>
-                        <img src={require('../../assets/images/section5-logo1.png')} />
+                        <img src={require('../../assets/images/section5-logo1.png')} alt="icon" />
                     </Wrapper>
                 </SubGrid>
                 <SubGrid colSpan={'l2'}>
                     <Wrapper>
-                        <img src={require('../../assets/images/section5-logo2.png')} />
+                        <img src={require('../../assets/images/section5-logo2.png')} alt="icon" />
                     </Wrapper>
                 </SubGrid>
                 <SubGrid colSpan={'l3'}>
                     <Wrapper>
-                        <img src={require('../../assets/images/section5-logo3.png')} />
+                        <img src={require('../../assets/images/section5-logo3.png')} alt="icon" />
                     </Wrapper>
                 </SubGrid>
                 <SubGrid colSpan={'l4'}>
                     <Wrapper>
-                        <img src={require('../../assets/images/section5-logo4.png')} />
+                        <img src={require('../../assets/images/section5-logo4.png')} alt="icon" />
                     </Wrapper>
                 </SubGrid>
             </ReponsiveGrid>

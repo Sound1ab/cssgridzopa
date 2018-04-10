@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import {breakpoints} from '../utils/breakpoints';
 import Heading from '../atoms/Heading';
 import Grid from '../atoms/Grid';
