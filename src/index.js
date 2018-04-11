@@ -32,7 +32,7 @@ injectGlobal`
     }
     
     html {
-        width: 100vw;
+        width: 100%;
         overflow-x: hidden;
     }
     
@@ -44,6 +44,11 @@ injectGlobal`
         color: black;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
     }
     
     h1 {
